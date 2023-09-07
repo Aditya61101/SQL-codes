@@ -1,0 +1,8 @@
+errors are being thrown because vs code uses mssql instead of mysql.
+4ch@n2215
+C:\Program Files\MySQL\MySQL Server 8.0\bin
+CREATE USER 'sqluser'@'%' IDENTIFIED WITH mysql_native_password BY 'password'; 
+GRANT ALL PRIVILEGES ON . TO 'sqluser'@'%'; 
+FLUSH PRIVILEGES;
+
+AS -> use for alias for columns 
